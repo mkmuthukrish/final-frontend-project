@@ -5,10 +5,12 @@ body{
     background: black;
    color: red;
 }
-nav{
-    margin-left: 35%;
-    padding: 20px;
-    transition: all 0.5s ease-in-out;
+#nav{
+    display: flex;
+    justify-content: end;
+    border: 2px solid transparent;
+    flex-shrink: calc(2);
+    flex-wrap: wrap;
 }
 nav li:hover{
     box-shadow: 10px 10px 20px red;
@@ -29,14 +31,22 @@ nav li{
     border-radius: 10px;
     padding: 10px;
 }
+#detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid transparent;
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
 #loct{
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 200px;
     transition: all 0.8s ease-in-out;
     border: 2px solid red;
     border-radius: 10px;
-    margin: 10px;
 }
 #loct:hover{
     box-shadow:20px 20px 50px red;  
@@ -45,6 +55,7 @@ nav li{
 video{
     width: 100%;
 }
+
 #intro{
     padding: 30px;
     margin: 30px;
