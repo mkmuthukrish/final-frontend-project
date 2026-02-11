@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="portfolio.css">
     
     <style>
         html{
@@ -11,42 +11,47 @@
     </style>
   </head>
   <body id="top">
-    <h2>NAVBAR</h2>
+    <nav>
     <ul>
         <li> <a href="#abtme">About</a></li>
         <li><a href="#skill">Skills</a></li>
         <li><a href="#pro">Project</a></li>
         <li><a href="#edu">Education</a></li>
-        <li><a href="#contact">contact</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li><a href="./resume.pdf" download="Muthu-Resume">Download Resume</a></li>
     </ul>
-    <h1>Muthu Krishnan M</h1>
-    <h3>I'm a Developer</h3>
-    <p>
+    </nav>
+      <video src="./welcome.mp4" autoplay loop></video>
+
+    <section id="details">
+    <p  id="intro"> 
       Aspiring Full-Stack Developer | Proficient in Java, HTML, CSS, JavaScript
       | Self-Motivated, Passionate, and Always Learning 💻🚀
     </p>
-    <p>
+    <p id="loct">
       <a
         target="_blank"
         href="https://www.google.com/maps/place/Coimbatore,+Tamil+Nadu/@11.0142615,76.8024165,11z/data=!3m1!4b1!4m6!3m5!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!8m2!3d10.9973691!4d76.9588876!16zL20vMDE5ZmM0?entry=ttu&g_ep=EgoyMDI2MDExOS4wIKXMDSoKLDEwMDc5MjA3MUgBUAM%3D"
         ><img
           height="20px"
           width="20px"
-          src="https://cdn-icons-png.flaticon.com/128/535/535188.png"
+          src="https://cdn-icons-png.flaticon.com/128/535/535137.png"
           alt="location"
         />Coimbatore, Tamil Nadu</a
       >
     </p>
-    <a href="https://www.linkedin.com/in/muthu-krishnan-m-dev" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="linkedin" height="30px" width="30px"></a>
+    <a href="https://www.linkedin.com/in/muthu-krishnan-m-dev" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/1384/1384088.png" alt="linkedin" height="30px" width="30px"></a>
     <a href="https://github.com/mkmuthukrish" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="github"height="30px" width="30px"></a>
     <a href="https://leetcode.com/u/m_muthu-krishnan5/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/3573/3573187.png" alt="leetcode" height="30px" width="30px"></a>
-    <a href="mailto:kit26.ecea30@gmail.com"><img src="https://cdn-icons-png.flaticon.com/128/542/542689.png" alt="emailid" height="30px" width="30px"></a>
-    <h4><a href="#contact">Get In Touch</a></h4>
-    <h4><a href="#pro">view project</a></h4>
+    <a href="mailto:kit26.ecea30@gmail.com"><img src="https://cdn-icons-png.flaticon.com/128/542/542689.png" alt="emailid" height="30px" width="30px"></a><br>
+    <a href="#contact" class="get">Get In Touch</a>
+    <a href="#pro" class="get">View Project</a>
+    </section>
+    <section class="about">
     <h2 id="abtme">About Me</h2>
     <p>Get to know more about my journey and aspirations</p>
-    <h3><strong>Who I Am</strong></h3>
+    </section>
+    <section id="aboutp">
     <p>
       I am a motivated and enthusiastic college student currently pursuing my
       Bachelor of Engineering (B.E.) in Electronics and Communication
@@ -62,8 +67,9 @@
       programming concepts, application development, and industry-relevant
       practices.
     </p>
-    <h3>My Vision</h3>
-    <p>
+    </section>
+    <h3 id="vision">My Vision</h3>
+    <p id="visionp">
       My long-term career goal is to become a skilled Full Stack Developer and
       secure a role in a well-reputed organization where I can contribute
       meaningfully, grow professionally, and continuously upgrade my technical
@@ -71,43 +77,57 @@
       explore new technologies, with a strong belief in continuous learning and
       self-improvement.
     </p>
+    
+    <section id="skills">
     <h2 id="skill">My Skills</h2>
     <p>Technologies and tools I work with to bring ideas to life</p>
-    <ul>
-      <li>Front-End</li>
+    </section>
+    <section id="skillfull">
+    <section id="front">
+      <h2 class="sub">Front-End</h2>
       <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>TALWIND CSS</li>
-        <li>JS</li>
-        <li>REACT JS</li>
-      </ul>
+        <li><img src="https://cdn-icons-png.flaticon.com/128/174/174854.png" alt="html" id="skillimg"><br>HTML</li>
+        <li><img src="https://cdn-icons-png.flaticon.com/128/16020/16020753.png" alt="css" id="skillimg"><br>CSS</li>
+        <li><img src="https://cdn-icons-png.flaticon.com/128/1199/1199124.png" alt="js" id="skillimg"><br>JS</li>
+        <li> <img src="https://cdn-icons-png.flaticon.com/128/3459/3459528.png" alt="reactjs" id="skillimg"><br>REACT JS</li>
     </ul>
-    <ul>
-      <li>Back-End</li>
+    </section>
+    <section id="front">
+      <h2 class="sub">Back-End</h2>
       <ul>
-        <li>Node js</li>
-        <li>Java</li>
+        <li><img src="https://cdn-icons-png.flaticon.com/128/15484/15484303.png" alt="nodejs" id="skillimg"><br>Node js</li>
+        <li><img src="https://cdn-icons-png.flaticon.com/128/226/226777.png" alt="java" id="skillimg"><br>Java</li>
       </ul>
-    </ul>
-    <ul>
-      <li>Data-base</li>
+    </section>
+    <section id="front">
+
+      <h2 class="sub">Data-base</h2>
       <ul>
-        <li>MYSQL</li>
+        <li><img src="https://cdn-icons-png.flaticon.com/128/1199/1199128.png" alt="sql" id="skillimg"><br>MYSQL</li>
       </ul>
-    </ul>
-    <h2>Programming Language</h2>
+  
+    </section>
+    <section id="front">
+    <h2 class="sub2">Programming Language</h2>
     <ul>
-      <li>Java</li>
-      <li>JavaScript</li>
+      <li><img src="https://cdn-icons-png.flaticon.com/128/226/226777.png" alt="java" id="skillimg"><br>Java</li>
+      <li><img src="https://cdn-icons-png.flaticon.com/128/1199/1199124.png" alt="javascript" id="skillimg"><br>JavaScript</li>
     </ul>
+    </section>
+    </section>
+    <div id="overallproject">
+    <div id="prohead">
     <h2 id="pro">MY Project</h2>
     <p>Showcasing my work and learning journey</p>
+    </div>
+    <div id="pro1">
     <h4>IOT BASED THERMAL ANOMALY ALERT SYSTEM FOR WINDTURBINES</h4>
     <p>
       This used in windturbine to protect from the disaster, help of our product
       that is like a sensor
     </p>
+    </div>
+    <div id="pro1">
     <h4>CINETUNE</h4>
     <dl>
       <dt><strong>Description</strong></dt>
@@ -116,39 +136,47 @@
         <a href="https://mkmuthukrish.github.io/cinetune/" target="_blank">CINETUNE</a>
       </dd>
     </dl>
+    </div>
+    </div>
+    <div id="overalledu">
+    <div id="education">
     <h2 id="edu">Education</h2>
     <p>My academic journey and qualifications</p>
-    <ul>
-      <li>
+    </div>
+        <div id="engg">
         <b>B.E Electronics and Communication Engineering</b>
         <p>
           KIT - Kalaignar Karunanidhi Institute of Technology- with 8.66 CGPA
         </p>
-      </li>
-      <li>
+        </div>
+        <div id="engg">
         <b>Higher Secondary</b>
         <p>CSI Matriculation Higher Secondary School-with 82.5 Percentage</p>
-      </li>
-      <li>
+        </div>
+        <div id="engg">
         <b>Secondary</b>
         <p>CSI Matriculation Higher Secondary School-with 79.9 Percentage</p>
-      </li>
-    </ul>
+        </div>
+        </div>
+      <div>
+    <div id="overallcontact">
     <h2 id="contact">Contact-Get In Touch</h2>
-    <ul>
-      <li>
+    <div id="cont">
         <h5>
           📧EMAIL:-<a href="mailto:kit26.ecea30@gmail.com"
             >kit26.ecea30@gmail.com</a
           >
         </h5>
-        <li><h5>
+        </div>
+        <div id="cont">
+        <h5>
           📱MOBILENO:-
           <a href="tel:9384760222">9384760222</a>
-        </h5></li>
-        
-      </li>
-    </ul>
-    <h4>Go to Top <a href="#top"><img src="https://cdn-icons-png.flaticon.com/128/16247/16247229.png" alt="top" height="20px" width="20px"></a></h4>
+        </h5>
+        </div>
+    </div>
+    <div id="last">
+    <h4><a href="#top">Go to Top <img src="https://cdn-icons-png.flaticon.com/128/16247/16247229.png" alt="top" height="20px" width="20px"></a> </h4>
+    </div>
   </body>
 </html>

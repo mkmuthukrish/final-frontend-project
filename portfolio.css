@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+   color: red;
+}
+nav{
+    margin-left: 35%;
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+nav li:hover{
+    box-shadow: 10px 10px 20px red;
+    transform: translate(2px);
+    font-size: x-large
+}
+a{
+     color: red;
+     text-decoration: none;
+     font-size: large;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+}
+#loct{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    transition: all 0.8s ease-in-out;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 10px;
+}
+#loct:hover{
+    box-shadow:20px 20px 50px red;  
+    transform: translate(20px); 
+}
+video{
+    width: 100%;
+}
+#intro{
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    border: 2px solid red;
+    box-shadow: 10px 15px 30px red;
+}
+img[alt="linkedin"],[alt="github"],[alt="leetcode"],[alt="emailid"]{
+    width: 30px;
+    height: 30px;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: red;
+    margin: 10px;
+}
+img[alt="linkedin"]:hover,[alt="github"]:hover,[alt="leetcode"]:hover,[alt="emailid"]:hover{
+    box-shadow: 10px 10px 20px red;
+    transform: translate(2px);
+}
+.get{
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.get:hover{
+    box-shadow: 10px 10px 20px red;
+    transform: translate(2px);
+}
+.get[href="#contact"]{
+    background-color: red;
+    color: black;
+}
+.about{
+    text-align: center;
+    border: 2px solid red;
+    width: 350px;
+    margin: 50px auto 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px red;
+}
+
+#aboutp{
+    border: 2px solid red;
+    margin: 50px auto 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px red;
+    padding: 20px;
+}
+#vision{
+    text-align: center;
+    border: 2px solid red;
+    width: 350px;
+    margin: 50px auto 20px;    
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px red;
+    padding: 15px;
+}
+#visionp
+{
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px red;
+    padding: 20px;
+    margin: 50px auto 20px;
+}
+#skills{
+    text-align: center;
+    border: 2px solid red;
+    width: 400px;
+    margin: 100px auto 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px red;
+    padding: 15px;
+}
+#front li{
+    display: inline-block;
+    margin-left: 50px;
+    border: red 2px solid;
+    padding: 50px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    
+}
+#front li:hover{
+    box-shadow: 10px 10px 20px red;
+    transform: translate(2px);
+}
+.sub{
+    
+    width:300px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 50px auto;
+    box-shadow: 10px 10px 20px red;
+}
+.sub2{
+    width:370px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: 10px 10px 20px red;
+}
+#skillimg{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+#skillfull{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    align-items: space-between;
+    border: 2px solid transparent;
+    width: auto;
+    height: auto;
+    margin: 10px auto 20px;
+    padding: 20px;
+}
+#prohead{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid red;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px red;
+    padding: 15px;
+}
+#overallproject{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid transparent;
+    width: 100%;
+    row-gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+#pro1{
+    border: 2px solid red;
+    transition: all 0.5s ease-in-out;
+}
+#pro1:hover{
+    box-shadow: 10px 10px 20px red;
+    transform: translate(2px);
+}
+#pro1 a:hover{
+    color: brown;
+}
+#pro1 h4{
+    border: 2px solid transparent;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px red;
+}
+#overalledu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid transparent;
+    width: 100%;
+    row-gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+#education{
+    border: 2px solid red;
+    width: 400px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px red;
+    padding: 15px;
+    
+}
+#engg{
+    margin-top: 50px;
+    border: 2px solid red;
+    width: 400px;   
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px red;
+    padding: 15px;
+}
+#overallcontact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid transparent;
+    width: 100%;
+    row-gap: 10px;
+    padding: 20px;
+}
+#contact{
+    border: 2px solid red;
+    width: 400px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px red;
+    padding: 15px;
+}
+#cont{
+    border: 2px solid red;
+    width: 400px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px red;
+    padding: 15px;
+}
+#cont a:hover{
+    color: brown;
+}
+#last{
+    margin: 100px auto 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: fit-content;
+    box-shadow: 10px 10px 20px red;
+    padding: 15px;
+}
